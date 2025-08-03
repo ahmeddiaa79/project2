@@ -434,6 +434,10 @@ header{
     position: relative;
     transition: 0.5s;
 }
+.sec3-image img{
+    width: 100%;
+    height: 400px;
+}
 .sec3-image .img-top{
     position: absolute;
     visibility: hidden;
@@ -487,6 +491,20 @@ header{
 }
 .sec3-card span del{
     color: red;
+}
+.sec3-icons a i {
+  color: #495464;
+  transition: color 0.4s ease;
+}
+.sec3-icons a:hover i {
+  animation: colorShake 0.2s 2;
+  animation-fill-mode: forwards;
+}
+@keyframes colorShake {
+  0%   { color: #495464; }
+  25%  { color: #fff; }
+  50%  { color: #495464; }
+  100% { color: #fff; }
 }
 /* *************************************section 4 ***************************************** */
 .sec4-container{
@@ -646,6 +664,14 @@ header{
 }
 .sec5-card span{
     padding: 10px;
+}
+.sec5-icons a i {
+  color: #495464;
+  transition: color 0.4s ease;
+}
+.sec5-icons a:hover i {
+  animation: colorShake 0.2s 2;
+  animation-fill-mode: forwards;
 }
 /* **************************sec6************************************* */
 .sec6-container{
@@ -832,7 +858,7 @@ footer{
 }
 .footer-three p i{
     animation-name: change;
-    color: black;
+    color:#bbbfca;
     animation-duration: 1s;
     animation-iteration-count: infinite;
 
