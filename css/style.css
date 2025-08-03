@@ -5,16 +5,20 @@
 }
 body{
     text-transform: capitalize;
+    background-color: #f4f4f2;
 }
 a{
     display: inline-block;
     text-decoration: none;
-    color: #000000;
+    color: #495464;
 }
 button{
     cursor: pointer;
     border: none;
     color: #fff;
+}
+p{
+    font-size: 18px;
 }
 hr{
     width: 80%;
@@ -80,6 +84,7 @@ header{
 }
 .header-one-icon a:hover{
     transform: rotateY(180deg);
+    color: red;
 }
 .hr-one{
     width: 100%;
@@ -99,7 +104,6 @@ header{
 }
 .header-two .main-home .main-home-li a{
     text-decoration: none;
-    color: black;
 } 
 .header-pages i{
     transform: rotate(270deg);
@@ -213,7 +217,6 @@ header{
 }
 .header-two-icons a{
     text-decoration: none;
-    color: black;
     margin-left: 20px;
     position: relative;
 }
@@ -250,7 +253,7 @@ header{
 /* ***************************header-three************************* */
 .header-three{
     text-align: center;
-    background-color: black;
+    background-color: #495464;
     height: 40px;
     width: 100%;
     padding-top: 10px;
@@ -269,7 +272,7 @@ header{
 .fist-section{
     width: 100%;
     height: 100vh;
-    background-image: url(../images/my\ photo.jpg);
+    background-image: url(../images/for-those-who-like-to-dress-stylishly_1.jpg);
     background-size:cover;
     text-align: center;
     position: relative;
@@ -284,13 +287,15 @@ header{
 }
 .main-content h2{
     font-size: 60px;
+    color: #495464;
 }
 .main-content h1{
     font-size: 60px;
     margin: 25px 0;
+    color: #495464;
 }
 .main-content p{
-    color: rgba(255, 255, 255,0.7);
+    color: #fff;
     line-height: 1.4;
     font-size: 20px;
 }
@@ -299,13 +304,13 @@ header{
     height: 50px;
     font-size: 20px;
     margin-top: 25px;
-    background-color: black;
+    background-color: #495464;
     transition: 0.5s;
 }
 .main-content button:hover{
     transform: scale(1.1);
     background-color: #fff;
-    color: #000000;
+    color: #495464;
 }
 /* ************************section-two********************************** */
 .sec2-cards{
@@ -394,11 +399,13 @@ header{
     display: inline;
     margin-left: 20px;
     padding: 20px;
+    color: #495464;
 }
 .section-three-cards h2{
     display: inline-block;
     font-size: 40px;
     margin-bottom: 20px;
+    color: #495464;
 }
 .section-three-cards ul .women{
     color: red;
@@ -427,7 +434,7 @@ header{
     position: relative;
     transition: 0.5s;
 }
-.img-top{
+.sec3-image .img-top{
     position: absolute;
     visibility: hidden;
     width: 100%;
@@ -444,7 +451,7 @@ header{
     width: 50%;
     margin: auto;
     bottom: 20px;
-    left: 20%;
+    left: 25%;
     background-color: #fff;
     transform: scale(0);
     transition: 0.5s;
@@ -454,7 +461,6 @@ header{
     padding: 10px;
     width: 100%;
     margin: auto;
-    color: black;
     transition: 0.5s;
 }
 .sec3-icons a:hover{
@@ -470,18 +476,24 @@ header{
 }
 .sec3-card p{
     margin: 20px 0;
+    color: #495464;
 }
 .sec3-card:hover.sec3-card p{
     color: red;
 }
 .sec3-card span{
     padding: 10px;
+    color: #495464;
+}
+.sec3-card span del{
+    color: red;
 }
 /* *************************************section 4 ***************************************** */
 .sec4-container{
     width: 100%;
     margin: auto;
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-color: #bbbfca;
     position: relative;
 }
 .sec4-container .left,.sec4-container .right{
@@ -510,9 +522,7 @@ header{
 .sec4-content h2{
     font-size: 40px;
     padding: 20px;
-}
-.sec4-content p{
-    line-height: 1.4;
+    color: #495464;
 }
 .sec4-content2{
     width:max-content;
@@ -520,6 +530,14 @@ header{
     margin-top: 30px;
     padding: 30px 0;
     position: relative;
+}
+.sec4-content2 h3{
+    color: #495464;
+}
+.sec4-container p{
+    color: #fff;
+    line-height: 1.4;
+    padding: 5px 0;
 }
 .sec4-content2 img{
     position: absolute;
@@ -542,6 +560,7 @@ header{
 .sec5-contianer h2{
     font-size: 40px;
     text-align: center;
+    color: #495464;
     margin: 50px 0;
 
 }
@@ -570,25 +589,20 @@ header{
 }
 .sec5-image img{
     width: 100%;
-    height: 100%;
+    height: 400px;
 }
-.sec5-image::after{
+.sec5-image .img-top{
     position: absolute;
-    content: "";
     top: 0;
     left: 0;
     width: 100%;
     height: 0%;
-    background-image: url(../images/young-handsome-smiling-man-purple-600nw-2217607563.webp);
-    background-position: center;
-    visibility: hidden;
     transition: 0.5s;
     opacity: 0;
 }
-.sec5-card:hover .sec5-image::after{
-    visibility: visible;
+.sec5-card:hover .sec5-image .img-top{
     width: 100%;
-    height: 100%;
+    height: 400px;
     opacity: 1;
 }
 .sec5-image .sec5-icons{
@@ -598,7 +612,7 @@ header{
     width: 50%;
     margin: auto;
     bottom: 20px;
-    left: 20%;
+    left: 25%;
     background-color: #fff;
     transform: scale(0);
     transition: 0.5s;
@@ -620,6 +634,13 @@ header{
 }
 .sec5-card p{
     margin: 20px 0;
+    color: #495464;
+}
+.sec5-card span{
+    color: #495464;
+}
+.sec5-card del{
+    color: red;
 }
 .sec5-card:hover.sec5-card p{
     color: red;
@@ -630,12 +651,16 @@ header{
 /* **************************sec6************************************* */
 .sec6-container{
     width: 100%;
-    background-color: aqua;
+    background-color: #bbbfca;
     margin-top: 50px;
+}
+.sec6-container p{
+    color: #fff;
 }
 .sec6-container h2{
     font-size: 40px;
     text-align: center;
+    color: #495464;
     padding: 50px 0;
 }
 .sec6-cards{
@@ -644,9 +669,13 @@ header{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 40px;
+    padding-bottom: 50px;
 }
 .sec6-card{
     padding: 20px 10px;
+}
+.sec6-card h3{
+    color: #495464;
 }
 .sec6-card img{
     width: 100%;
@@ -665,6 +694,7 @@ header{
 }
 .sec6-card a{
     transition: 0.5s;
+    font-size: 20px;
 }
 .sec6-card a:hover{
     transform: scale(1.1);
@@ -686,6 +716,7 @@ header{
     display: block;
     transition: 0.2s;
     margin-bottom: 10px;
+    color: #bbbfca;
 }
 .sec-7-icons{
     height: 50px;
@@ -695,18 +726,19 @@ header{
     overflow: hidden;
 }
 .sec-7-icons .back{
-    color: #000000;
+    color: #495464;
 }
 .sec7-card:hover.sec7-card i{
     transform: translateY(-40px);
 }
 .sec7-card h3{
     margin: 20px 0;
-    font-size: 20px;
+    font-size: 25px;
+    color: #495464;
 }
 /* ***************footer*********************** */
 footer{
-    background-color: #000000;
+    background-color: #bbbfca;
 }
 .footer-one-cotainer{
     display: flex;
@@ -720,19 +752,20 @@ footer{
 .footer-one-content h2{
     margin-bottom: 20px;
     font-size: 30px;
+    color: #495464;
 }
 .footer-one-input input{
     width: 300px;
     height: 40px;
     padding: 10px;
     font-size: 20px;
+    border: none;
     outline: none;
 }
 .footer-one-input button{
     height: 40px;
     width: 100px;
-    background-color: red;
-    border: none;
+    background-color: #495464;
     color: #fff;
     font-size: 20px;
     margin-left: 5px;
@@ -743,8 +776,8 @@ footer{
 }
 .footer-one-icons a{
     margin-left: 10px;
-    font-size: 20px;
-    color: rgba(128, 128, 128,0.8);
+    font-size: 25px;
+    color: #495464;
     transition: 0.5s;
 }
 .footer-one-icons a:hover{
@@ -766,13 +799,15 @@ footer{
 .footer-two-content h3{
     font-size: 25px;
     margin-bottom: 30px;
-    color: #fff;
+    /* color: #fff; */
+    color: #495464;
 }
 .footer-two-content ul {
     list-style-type: none;
 }
 .footer-two-content li{
     padding: 10px 0;
+    font-size: 20px;
 }
 .footer-two-content li a{
      color: rgba(255, 255, 255,0.8);
@@ -785,9 +820,9 @@ footer{
 /* **********************footer-three************* */
 .footer-three p{
     text-align: center;
-    color: rgba(255, 255, 255,0.8);
+    color: #495464;
     padding: 20px 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 .footer-three p a{
     color: red;
