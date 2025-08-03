@@ -492,7 +492,6 @@ header{
 .sec4-container{
     width: 100%;
     margin: auto;
-    /* background-color: aqua; */
     background-color: #bbbfca;
     position: relative;
 }
@@ -799,7 +798,6 @@ footer{
 .footer-two-content h3{
     font-size: 25px;
     margin-bottom: 30px;
-    /* color: #fff; */
     color: #495464;
 }
 .footer-two-content ul {
@@ -870,6 +868,10 @@ footer{
     padding:10px;
     margin-left: 5px;
     position: relative;
+}
+/* *************************sec1************************************ */
+.fist-section{
+    background-position: center;
 }
 /************************ sec2****************************************** */
 .sec2-cards{
@@ -953,7 +955,7 @@ footer{
 }
 }
 /* ******************mopile********************* */
-@media (max-width:570px){
+@media (max-width:679px){
     .header-two-response{
         display: block;
         position: relative;
@@ -1038,7 +1040,7 @@ footer{
     margin-bottom: 30px;
 }
 .section-three-cards ul li{
-    padding: 20px 10px;
+    padding: 20px 5px;
 }
 /* *******************sec7*********************************** */
 .sec7-cards{
