@@ -865,7 +865,7 @@ footer{
 }
 @keyframes change{
     0%{
-        color: black;
+        color: #bbbfca;
     }
     50%{
         color: red;
