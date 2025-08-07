@@ -88,7 +88,7 @@ header{
 .header-two .main-home .main-home-li{
     display: inline;
     padding:10px;
-    margin-left: 10px;
+    margin-left: 7px;
     position: relative;
 }
 .header-two .main-home .main-home-li a{
@@ -238,9 +238,7 @@ header{
     margin-left: 10%;
 }
 .header-two-image img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+    font-size: 18px;
 }
 .header-two-response{
     display: none;
