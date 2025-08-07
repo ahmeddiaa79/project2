@@ -800,7 +800,7 @@ footer{
     transition: 0.5s;
 }
 .footer-one-icons a:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
     color: #fff;
 }
 /* *******************footer-two***************** */
