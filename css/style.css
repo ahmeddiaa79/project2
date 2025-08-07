@@ -734,7 +734,7 @@ header{
 .sec-7-icons i{
     display: block;
     transition: 0.2s;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     color: #bbbfca;
 }
 .sec-7-icons{
@@ -748,7 +748,7 @@ header{
     color: #495464;
 }
 .sec7-card:hover.sec7-card i{
-    transform: translateY(-40px);
+    transform: translateY(-45px);
 }
 .sec7-card h3{
     margin: 20px 0;
@@ -810,10 +810,8 @@ footer{
     width: 80%;
     margin:50px auto;
 }
-.footer-two-container img{
-    width: 200px;
-    height: 80px;
-    border-radius: 10px;
+.footer-two-container a{
+    font-size: 18px;
 }
 .footer-two-content h3{
     font-size: 25px;
