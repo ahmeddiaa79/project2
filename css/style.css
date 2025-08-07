@@ -11,6 +11,7 @@ body{
 a{
     display: inline-block;
     text-decoration: none;
+    font-size: 18px;
     color: #495464;
 }
 button{
@@ -31,24 +32,17 @@ header{
  .header-one{
     width: 80%;
     margin: auto;
+    padding: 5px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
  }
- .header-one ul{
-    padding: 10px 0;
+ .header-one a{
+    padding: 5px 10px;
     position: relative;
+    margin-left: 1px;
  }
- .header-one li{
-    display: inline;
-    margin-left: 10px;
-    font-size: 18px;
-    position: relative;
- }
- .header-one li a{
-    padding: 0 5px;
- }
- .header-one li::before{
+ .header-one a::before{
     position: absolute;
     content: "";
     bottom: 0;
@@ -59,7 +53,7 @@ header{
     transition: 0.5s;
     visibility: hidden;
 }
-.header-one li::after{
+.header-one a::after{
     position: absolute;
     content: "";
     top: 0;
@@ -70,20 +64,14 @@ header{
     transition: 0.5s;
     visibility: hidden;
 }
-.header-one li:hover:after,.header-one li:hover:before{
+.header-one a:hover:after,.header-one a:hover:before{
     visibility: visible;
     height: 100%;
 }
-.header-one-icon{
-    position: relative;
-    padding: 5px;
-}
-.header-one-icon a{
-    height: 100%;
+.header-one i{
     transition: 0.5s;
-    padding-left: 5px;
 }
-.header-one-icon a:hover{
+.header-one nav a:hover i{
     transform: rotateY(180deg);
     color: red;
 }
@@ -172,7 +160,7 @@ header{
  .pages-list{
     position: absolute;
     top: 35px;
-    width: 280px;
+    width: 290px;
     right:-100px;
     list-style-type: none;
     border-radius: 10px;
@@ -185,7 +173,7 @@ header{
  }
  .main-li a{
     color: rgba(128, 128, 128,0.8);
-    border-bottom:2px solid rgba(128, 128, 128,0.8);
+    border-bottom:1px dotted rgba(128, 128, 128,0.8);
     padding-bottom: 5px;
  }
 .pages-list .right{
@@ -238,6 +226,10 @@ header{
 }
 .header-two-icons a:hover{
     color: red;
+}
+.main-li a:hover{
+    color: rgba(128, 128, 128,0.8);
+    transform: scale(1);
 }
 .bag:hover.bag span{
     top: -20px;
@@ -418,7 +410,7 @@ header{
 .section-three-cards ul .women::after{
     position: absolute;
     content: "";
-    bottom: -11px;
+    bottom: -8px;
     left: 0;
     height: 3px;
     width: 100%;
@@ -844,6 +836,7 @@ footer{
 .footer-two-content li a:hover{
     transform: scale(1.1);
     letter-spacing: 0.5px;
+    text-decoration:2px underline;
 }
 /* **********************footer-three************* */
 .footer-three p{
@@ -881,9 +874,8 @@ footer{
     .header-one{
     width: 100%;
  }
-  .header-one li{
-    display: inline;
-    margin-left: 5px;
+ .header-one a{
+    padding: 5px;
  }
  /* **********header-two********************************************** */
  .header-two-icons{
@@ -916,10 +908,10 @@ footer{
     width: 100%;
 }
 .section-three-cards h2{
-    margin-left: 10%;
+    margin-left: 5%;
 }
 .section-three-cards ul{
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .section-three-cards ul li{
     display: inline;
